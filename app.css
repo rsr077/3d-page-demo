@@ -1,0 +1,45 @@
+.book-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #4b5e40;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #3a4a30;
+}
+
+.page {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.page-content {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain;
+}
+
+.file-input {
+  margin: 20px;
+}
